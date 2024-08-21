@@ -1,0 +1,69 @@
+.dinner .menu{
+  flex-basis: 20%;
+  position: relative;
+}
+.dinner .menuinner{
+  flex-basis: 80%;
+}
+.sidebar{
+  width:100%;
+  height: 100vh;
+  background-color: #212631;
+  color:white;
+  position: static;
+  left:0;
+  top:0;
+  transition: 0.5s ease-in-out;
+}
+.sidebar>h3{
+  color: #E2E3D9;
+  border-bottom: 1px solid #323A49;
+}
+.icon{
+  list-style: none;
+  color: #E2E3D9;
+  margin:0;
+  padding: 0;
+}
+.icon li{
+  margin-top: 10px;
+  padding:9px;
+  font-size: 20px;
+  line-height:35px;
+  background: #2A303D;
+}
+.item{
+  list-style: none;
+  color: #E2E3D9;
+  padding: 0;
+  margin: 0;
+  width:100%
+}
+.item li{
+  margin-top: 10px;
+  position: relative;
+  top:0px;
+  padding:9px;
+  font-size: 16px;
+  line-height:35px;
+  background: #2A303D;
+}
+.sidebar>h5{
+  color:#757973;
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.accordion {
+  margin-top: 13px !important;
+  --bs-accordion-bg:#212631 !important;
+  --bs-accordion-btn-padding-x: 3.25rem !important;
+  --bs-accordion-btn-padding-y: 0.3rem !important;
+  --bs-accordion-border-color:none !important;
+  --bs-border-radius: 0 !important;
+}
+.accordion-button {
+  
+  color: white !important ;
+}
